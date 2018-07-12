@@ -434,7 +434,7 @@ h4 {
 }
 
 /* MEDIA QUERY STYLES */
-@media (max-width: 5in) {
+@media (max-width: 800) {
   html {
     box-shadow: none;
     padding: 0;
