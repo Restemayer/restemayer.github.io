@@ -480,7 +480,7 @@ h4 {
   .gallery-thumbs > div {
     display: inline-block;
   }
-  .galley-thumbs img {
+  .gallery-thumbs img {
     height: 7vh;
     margin: 0 10px 0 0;
     width: auto;
