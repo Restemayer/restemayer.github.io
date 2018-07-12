@@ -439,6 +439,9 @@ h4 {
     box-shadow: none;
     padding: 0;
   }
+  body{
+    margin: 0;
+  }
   .header-nav {
     padding: 2vh 1em 0 0;
   }
