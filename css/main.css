@@ -172,11 +172,11 @@ h4 {
   color: #333;
 }
 
-/* MOBILE MENU */
+/* MOBILE MENU
 .mobile-menu-check, .show-mobile-menu {
   display: none;
 }
-
+*/
 /* HIDE DROPDOWN IN FOOTER */
 .footer .dropdown:hover .drop-menu, .footer .drop-trigger:after {
   display: none;
