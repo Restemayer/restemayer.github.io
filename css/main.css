@@ -402,8 +402,8 @@ h1,h2,h3,h4,h5,h6 {
 
 /* GALLERY STYLES */
 .gallery-thumbs {
-  height: 90vh;
-  overflow: scroll;
+  height: 100%;
+  overflow-y: scroll;
 }
 .gallery-thumbs > div {
   cursor: pointer;
