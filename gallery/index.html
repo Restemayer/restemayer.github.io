@@ -7,22 +7,31 @@ description: I like pictures.
 <div class="gallery col-three">
   <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
     <div class="current">
-      <img src="/images/small/slide1.jpg" alt="Flowers" />
+      <img src="/images/small/slide1.jpg" alt="Flowers"
+      data-large-version="/images/large/slide1.jpg"
+      data-title="Flowers"
+      data-description="These are some flowers I picked from the internet."/>
     </div>
     <div>
-      <img src="/images/small/slide2.jpg" alt="You look like you could use some coffee" />
+      <img src="/images/small/slide2.jpg" alt="You look like you could use some coffee"
+      data-large-version="/images/large/slide2.jpg"
+      data-title="Coffee"
+      data-description="You look like you could use some coffee."/>
     </div>
     <div>
-      <img src="/images/small/slide3.jpg" alt="Signs" />
+      <img src="/images/small/slide3.jpg" alt="Signs"
+      data-large-version="/images/large/slide3.jpg"
+      data-title="Signs"
+      data-description="Random signs on a wall."/>
     </div>
   </div>
   <div class="col col-content">
-    <div class="gallery-photo">
-      <img src="/images/large/slide1.jpg" alt="Image title 1" />
+    <div class="gallery-photo" id="gallery-photo">
+      <img src="/images/large/slide1.jpg" alt="Flowers" />
     </div>
   </div>
   <div class="col col-aside gallery-info" id="gallery-info">
-    <h3>Image Title 1</h3>
-    <p>Image description 1</p>
+    <h3 class="title">Flowers</h3>
+    <p class="description">"These are some flowers I picked from the internet."</p>
   </div>
 </div>
